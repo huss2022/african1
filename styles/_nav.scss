@@ -1,0 +1,95 @@
+
+
+
+
+
+
+.container{
+  // background-color: $color1;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100px;
+  // padding: 0px 25px;
+  box-shadow: -1px 8px 10px -1px rgba(0,0,0,0.61);
+-webkit-box-shadow: -1px 8px 10px -1px rgba(0,0,0,0.61);
+-moz-box-shadow: -1px 8px 10px -1px rgba(0,0,0,0.61);
+}
+
+
+
+.logo a img{
+  display: block;
+  width: 100px;
+  float: left;
+  animation:  example 10s ease 0s infinite normal forwards;
+  
+ 
+}
+
+
+.links{
+  /* background-color: aqua; */
+  text-align: right;
+  background-color: $color3;
+  // box-shadow: 14px 14px 13px -8px rgba(0,0,0,0.49);
+  // -webkit-box-shadow: 14px 14px 13px -8px rgba(0,0,0,0.49);
+  // -moz-box-shadow: 14px 14px 13px -8px rgba(0,0,0,0.49);
+  z-index: 1;
+
+
+
+
+}
+
+
+.links a{
+
+  text-decoration: none;
+  font-size: 20px;
+  color: $color2;
+  padding: 0px 10px;
+  line-height: 100px;
+  font-weight: bold;
+  /* box-shadow: 14px 14px 13px -8px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 14px 14px 13px -8px rgba(0,0,0,0.49);
+  -moz-box-shadow: 14px 14px 13px -8px rgba(0,0,0,0.49); */
+ 
+/* animation: rotate-hor-center 2s ease 0s infinite normal forwards; */
+
+
+
+
+
+}
+
+
+// .links a:hover{
+//   animation: bounce-in-top 2s ease 0s infinite normal forwards;
+  
+// }
+
+
+
+
+span.fa{
+  color: $color1;
+  font-size: 26px;
+  display: none;
+  float: right;
+  padding: 0px 15px 0px 0px;
+  line-height: 100px;
+  cursor: pointer;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+

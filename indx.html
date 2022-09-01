@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="/images/image844.png"
+              alt=""
+              class="rotate-scale-down-diag-2"
+          /></a>
+          <span class="fa fa-bars"></span>
+        </div>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">Abute</a>
+          <a href="#">menu</a>
+          <a href="#">menu</a>
+          <a href="#">contacts</a>
+        </div>
+      </div>
+    </header>
+    <main>
+    <div class="sec1">
+      <div class="soon">
+        <h1>AFRICAN TASTE</h1>
+        <h3>Coming Soon</h3>
+      </div>
+    </div>
+    </main>
+    <script>
+      document
+        .getElementsByClassName("fa")[0]
+        .addEventListener("click", function () {
+          document
+            .getElementsByClassName("links")[0]
+            .classList.toggle("mylinksshow");
+        });
+    </script>
+  </body>
+</html>
